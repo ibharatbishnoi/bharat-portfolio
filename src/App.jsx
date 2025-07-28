@@ -40,6 +40,11 @@ export default function Portfolio() {
 
       {/* Hero Section */}
       <section className="px-8 py-20 text-center bg-black">
+        <img
+          src="/me-circle.png"
+          alt="Bharat Bishnoi"
+          className="w-32 h-32 mx-auto rounded-full mb-4 border-4 border-teal-400 object-cover"
+        />
         <h1 className="text-4xl sm:text-5xl font-bold text-teal-300 mb-4">Hi, I'm Bharat Bishnoi</h1>
         <p className="text-lg text-gray-300 mb-6">Full Stack Developer | Cloud Certified | Tech Enthusiast</p>
         <a
@@ -117,23 +122,19 @@ export default function Portfolio() {
           {[
             {
               title: "GenoCryptNet",
-              description:
-                "Secure data transmission using DNA encoding, cryptography, and steganography. Developed custom embedding and decryption pipelines."
+              description: "Secure data transmission using DNA encoding, cryptography, and steganography. Developed custom embedding and decryption pipelines."
             },
             {
               title: "Mental Health Chatbot",
-              description:
-                "AI-powered chatbot using BERT for real-time mental health support. Integrated NLP preprocessing and response visualization."
+              description: "AI-powered chatbot using BERT for real-time mental health support. Integrated NLP preprocessing and response visualization."
             },
             {
               title: "Hangman Game",
-              description:
-                "Python-based interactive terminal game with letter-guessing logic and random word generation."
+              description: "Python-based interactive terminal game with letter-guessing logic and random word generation."
             },
             {
               title: "Library Management System",
-              description:
-                "Java application for managing book catalogs and transactions with high processing speed."
+              description: "Java application for managing book catalogs and transactions with high processing speed."
             }
           ].map((proj, index) => (
             <div key={index} className="bg-gray-800 p-6 rounded-lg shadow">
